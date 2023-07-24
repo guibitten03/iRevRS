@@ -1,0 +1,12 @@
+Para rodar DeepCoNN, NARRE, D_ATTN, MPCN e DAML, execute:
+
+python3 main.py train --model="model" --num_fea="num_fea" --output="Recommender"
+
+Para rodar CARL, CARP e PARL é preciso transformar os splits do dataset em outros arquivos como descrito no Read-me deles;
+
+Execute o script CarpCarlOutput.py mudando os paths para o dataset a ser analisado
+python3 Carl.py etc..
+
+Para rodar o RGNN:
+python3 data_process.py mudando os paths dos treinos, testes e val
+python3 data_gp.py dataset
